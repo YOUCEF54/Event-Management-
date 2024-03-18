@@ -1,0 +1,20 @@
+[
+    {
+        "nom" : "william",
+        "prenom" : "junks",
+        "email" : "williamjunks721@gmail.com",
+        "pass" : "admin1"
+    },
+    {
+        "nom" : "chanks",
+        "prenom" : "hibs",
+        "email" : "hibslanss271@gmail.com",
+        "pass" : "admin2"
+    },
+    {
+        "nom" : "ithen",
+        "prenom" : "fung",
+        "email" : "ithenun201@gmail.com",
+        "pass" : "admin3"
+    }
+]

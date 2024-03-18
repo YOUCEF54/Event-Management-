@@ -1,0 +1,23 @@
+import connectMongo from "../../../../dataBase/conn";
+import {getPart,putPart,deletePart} from "../../../../dataBase/controller"
+
+
+export default function handler(req, res) {
+    connectMongo().catch(()=>res.status(405).json({erro:"Error in the connection"}))
+    const { method } = req
+switch(method){
+    case 'GET' :
+        getPart(req,res)
+    break;
+    case 'PUT':
+        putPart(req,res)
+    break;
+    case 'DELETE':
+        deletePart(req,res)
+    break;
+    
+    default:
+    res.setHeader('Allow', ['GET', 'PUT', 'DELETE'])
+    res.status(405).end(`Method ${method} Not Allowd`)
+}
+}

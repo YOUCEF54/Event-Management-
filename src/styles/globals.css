@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Manrope:wght@200;300;400&family=Poppins:wght@200;300;400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animated-div {
+  animation: slideIn 0.5s ease-in-out;
+}
+
+
+*>*{
+  /* font-family: 'Lora', serif; */
+/* font-family: 'Manrope', sans-serif; */
+font-family: 'Poppins', sans-serif;
+}
+
+@layer base{
+  li{
+    @apply mx-3
+  }
+
+}
+
+@supports (font: -apple-system-body) and (-webkit-appearance: none) { img[loading="lazy"] { clip-path: inset(0.6px) } }
+@layer components {
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+
+  /* ... */
+}

@@ -1,0 +1,45 @@
+[
+  {
+    "id" : "001",
+    "Theme" : "theme A",
+    "DateDebut" : "2023-07-22T14:30:00",
+    "DateFin" : "2023-07-25T18:30:00",
+    "Lieu" : "Adresse 1",
+    "descreption" : "Assistez à une soirée de gala exceptionnelle pour soutenir une cause noble. Cet événement de bienfaisance vise à collecter des fonds pour offrir une éducation de qualité aux enfants défavorisés. Rejoignez-nous pour une soirée de glamour et d'élégance, avec des spectacles époustouflants, des enchères silencieuses et des délices gastronomiques. Les invités auront l'occasion de rencontrer des personnalités influentes et de contribuer à un changement positif dans la société. Soyez généreux et participez à cette soirée qui fera une réelle différence dans la vie des enfants. Ensemble, nous pouvons construire un avenir meilleur.",
+    "categorie" : "Conference",
+    "Organisateur" : "M.Ansari",
+    "partenaire" : ["Part1|Golden","Part2|Bronze","Part3|Silver"],
+    "Tele" : "0621458562",
+    "email" : "Organisateur3@gmail.com",
+    "nscRequis" : true
+  },
+  {
+    "id" : "002",
+    "Theme" : "theme B",
+    "DateDebut" : "2023-07-22T14:30:00",
+    "DateFin" : "2023-07-25T18:30:00",
+    "Lieu" : "Adresse 2",
+    "descreption" : "Venez découvrir le festival des arts du spectacle le plus attendu de l'année ! Nous vous invitons à plonger dans un monde d'émerveillement et de créativité. Assistez à des représentations théâtrales captivantes, des spectacles de danse époustouflants et des concerts envoûtants. Laissez-vous transporter par des talents exceptionnels qui repoussent les limites de l'expression artistique. Avec une variété d'activités interactives, des ateliers artistiques et des stands de nourriture délicieuse, il y en aura pour tous les goûts. Réservez vos billets dès maintenant et rejoignez-nous pour une expérience artistique immersive dont vous vous souviendrez longtemps !.",
+    "categorie" : "Conference",
+    "Organisateur" : "M.Ansari",
+    "partenaire" : ["Part1|Golden","Part2|Bronze","Part3|Silver"],
+    "Tele" : "0621458562",
+    "email" : "Organisateur3@gmail.com",
+    "nscRequis" : false
+  },
+  {
+    "id" : "003",
+    "Theme" : "theme C",
+    "DateDebut" : "2023-07-22T14:30:00",
+    "DateFin" : "2023-07-25T18:30:00",
+    "Lieu" : "Adresse 3",
+    "descreption" : "Assistez à une conférence inspirante animée par des experts de renommée internationale dans le domaine de la technologie. Explorez les dernières tendances et innovations, découvrez des idées révolutionnaires et échangez avec des professionnels passionnés. Cette conférence vous offre l'opportunité de vous immerger dans un environnement stimulant où vous pourrez développer vos compétences, élargir votre réseau professionnel et trouver l'inspiration pour vos projets futurs. Ne manquez pas cette occasion unique d'apprendre auprès des meilleurs et de vous connecter avec des esprits brillants. Réservez votre place dès maintenant et préparez-vous à vivre une expérience enrichissante au cœur de l'innovation technologique.",
+    "categorie" : "Conference",
+    "Organisateur" : "M.Ansari",
+    "partenaire" : ["Part1|Golden","Part2|Bronze","Part3|Silver"],
+    "Tele" : "0621458562",
+    "email" : "Organisateur3@gmail.com",
+    "nscRequis" : true
+  }]
+    
+   
